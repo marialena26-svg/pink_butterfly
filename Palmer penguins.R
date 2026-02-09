@@ -2,7 +2,7 @@ library(palmerpenguins)
 library(ggplot2)
 
 ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) +
-  geom_point(col = "hotpink") +
+  geom_point(col = "blue") +
   labs(
     title = "Penguin bill measurements",
     x = "Bill depth (mm)",
